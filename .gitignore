@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# Real invoices and generated ledgers should not be public.
+data/**/*.pdf
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.zip
+*.pdf
+*.xlsx
+*.xls
+*.zip
+
+!.gitignore
+!README.md
+!requirements.txt
+!pdf_invoice_to_sheet1_excel.py
+!templates/.gitkeep
+!data/.gitkeep
+!data/2026.05/put-pdfs-here.txt
